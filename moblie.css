@@ -1,0 +1,13 @@
+
+.header-mob{
+    display: none;
+}
+
+@media screen and (max-width :480) {
+.header-mob{
+    display: block;
+}
+    .header{
+        display: none;
+    }
+}
